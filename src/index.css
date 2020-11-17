@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+:root {
+    --bg-color-dark: #323436;
+    --bg-color-light: #e2e2e2;
+    --accent-color: #00b8fc;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,92 @@
+/*************************************************************
+Mobile
+*************************************************************/
+.section2{
+    background:#e1e1e1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+/*************************************************************
+ELEMENTS
+*************************************************************/
+/* reborn hero */
+.section2 .texts{
+    padding: 0px 50px;
+    max-width: 1000px;
+}
+.section2 .texts h2{
+    color: #262626;
+    padding: 30px 0px;
+}
+.section2 .texts .line{
+    border-bottom: 7px solid #262626;
+    width: 90px;
+}
+.section2 .texts p{
+    line-height: 1.5;
+    color: #676767;
+    padding: 30px 0px 30px 0px;
+}
+
+/* hero 16K - 11 Buttons - Five 3.6G */
+.section2 .features{
+    padding: 25px;
+    width: 100%;
+    max-width: 1000px;
+}
+.section2 .features .section{
+    border-bottom: 1px dotted #676767;
+    text-align: center;   
+}
+.section2 .features .section .title{
+    color: #676767;
+    padding: 15px 0px;
+}
+.section2 .features .section .subtitle{
+    color: #000;
+    padding-bottom: 30px;
+}
+
+/* image */
+.section2 .img-container{
+    flex-grow: 1;
+    max-width: 600px;
+    margin: auto;
+}
+.section2 .img-container img{
+    width: 100%;
+}
+/*************************************************************
+720px to 1024px
+*************************************************************/
+@media screen and (min-width: 720px){
+    .section2 .texts{
+        text-align: center;
+    }
+    .section2 .texts .line{
+        margin: auto;
+    }
+    .section2 .features{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .section2 .features .section{
+        border-bottom: none;
+        padding: 0px 50px;
+    }
+    .section2 .features .section-special{
+        border-top: 1px dotted #676767;
+    }
+}
+/*************************************************************
+1024px or more
+*************************************************************/
+@media screen and (min-width: 1024px){
+    .section2 .features .section-special{
+        border-top: none;
+    }
+}

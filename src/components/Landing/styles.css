@@ -1,0 +1,106 @@
+/*************************************************************
+Mobile
+*************************************************************/
+.landing{
+    background: var(--bg-color-dark);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+/*************************************************************
+ELEMENTS
+*************************************************************/
+/* G502 image */
+.landing .img-container{
+    max-width: 1000px;
+    /* background-image: url('../../images/side-view.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; */
+}
+.landing .img-container h1{
+    font-size: 20vw;
+    color: var(--accent-color);
+    text-align: center;
+    animation: move 1s;
+}
+@keyframes move{
+    0% {top: 200px;}
+    100% {top: 100px;}
+}
+.landing .img-container img{
+    width: 100%;
+}
+
+/* G502 title and texts container */
+.landing .texts {
+    padding: 75px 50px;
+}
+/* G502 title */
+.landing .texts .title{
+    color: #fff;
+    padding-bottom: 25px;
+}
+/* price */
+.landing .texts .price h3{
+    color: #c3c6c8;
+    font-weight: 400;
+    padding-bottom: 0px;
+}
+/* sold out */
+.landing .texts .p1{
+    color: #676767;
+    font-weight: 700;
+    padding: 25px 0px;
+}
+/* specs and support */
+.landing .texts .p2 p{
+    color: #c3c6c8;
+    font-weight: 700;
+    padding: 15px 0px;
+}
+/*************************************************************
+720px to 1024px
+*************************************************************/
+@media screen and (min-width: 720px){
+    .landing{
+        align-items: center;
+        padding: 0px 50px;
+    }
+    .landing .img-container{
+        width: 90%;
+    }
+    .landing .texts {
+        padding: 50px 0px;
+        text-align: center;
+    }
+    .landing .texts .title{
+        font-size: 200%;
+    }
+}
+/*************************************************************
+1024px or more
+*************************************************************/
+@media screen and (min-width: 1024px){
+    .landing{
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 0px 50px;
+    }
+    .landing .texts {
+        text-align: left;
+        max-width: 250px;
+    }
+    .landing .texts .title{
+        font-size: 20px;
+    }
+    .landing .texts .p1{
+        font-size: 150%;
+        border-bottom: 1px dashed #676767;
+    }
+    .landing .img-container h1{
+        font-size: 10vw;
+    }
+}

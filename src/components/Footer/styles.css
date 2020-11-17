@@ -1,0 +1,86 @@
+.footer{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+.footer .links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px dotted #262626;
+    padding-bottom: 20px;
+}
+.footer .links p {
+    padding: 10px;
+}
+.footer .links p a{
+    text-decoration: none;
+    color: #323436;
+    font-size: 75%;
+}
+.footer .links p a:hover{
+    text-decoration: none;
+    color: var(--accent-color);
+    border-bottom: 1px solid var(--accent-color);
+}
+
+/* email, subscribe, checkbox */
+.footer .subscribe{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+.footer .subscribe input{
+    color: #676767;
+    font-weight: 700;
+    padding: 15px 10px;
+    margin: 0px 20px;
+    border-radius: 10px;
+    border: 1px solid #676767;
+    font-size: 15px;
+}
+.footer .subscribe button{
+    padding: 15px;
+    background: #262626;
+    color: #FFF;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    margin: 20px;
+}
+.footer .subscribe .checkbox input{
+    cursor: pointer;
+}
+.footer .subscribe .checkbox label{
+    cursor: pointer;
+    color: #676767;
+    font-weight: 700;
+}
+/* credits */
+.footer .credits{
+    font-size: 75%;
+    color: #262626;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 720px){
+    .footer {
+        padding: 50px 100px;
+    }
+    .footer .links{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer .links p a{
+        font-size: 100%;
+    }
+    .footer .subscribe{
+        text-align: center;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+}
