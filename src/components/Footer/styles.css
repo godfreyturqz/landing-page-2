@@ -39,6 +39,7 @@
     border-radius: 10px;
     border: 1px solid #676767;
     font-size: 15px;
+    outline: none;
 }
 .footer .subscribe button{
     padding: 15px;
@@ -49,6 +50,7 @@
     cursor: pointer;
     border: none;
     margin: 20px;
+    outline: none;
 }
 .footer .subscribe .checkbox input{
     cursor: pointer;
