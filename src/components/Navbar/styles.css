@@ -1,0 +1,33 @@
+.navbar-container {
+    color: #FFF;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+    height: 10vh;
+    background: var(--bg-color-dark);
+}
+
+.navbar-container .bars{
+    cursor: pointer;
+}
+.navbar-container .logo-container{
+    width: 40px;
+}
+.navbar-container .logo-container img{
+    width: 100%;
+    cursor: pointer;
+}
+
+.navbar-container .right{
+    font-size: 20px;
+}
+.navbar-container .right .cart{
+    cursor: pointer;
+    
+}
+.navbar-container .search{
+    cursor: pointer;
+    margin-left: 20px;
+}
