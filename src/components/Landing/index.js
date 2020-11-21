@@ -17,7 +17,7 @@ function Landing() {
             <div className="texts">
                 <h3 className="title">G502 HERO HIGH PERFORMANCE GAMING MOUSE</h3>
                 <div className="price">
-                    <h3 style={{"text-decoration": "line-through"}}>$ 79.99</h3>
+                    <h3 style={{"textDecoration": "line-through"}}>$ 79.99</h3>
                     <h3>$ 49.99</h3>
                 </div>
                 <p className="p1">SOLD OUT</p>

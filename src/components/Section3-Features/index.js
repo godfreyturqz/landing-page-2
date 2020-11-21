@@ -18,9 +18,9 @@ function Section3(props) {
                 <img src={props.image} alt="mouse"/>
             </div>
             <div className="texts">
-                <div className="line" data-aos="fade-down"></div>
-                <h2 data-aos="fade-down">{props.title}</h2>
-                <p data-aos="fade-down" data-aos-delay="100">{props.description}</p>
+                <div className="line" data-aos="fade-up"></div>
+                <h2 data-aos="fade-up">{props.title}</h2>
+                <p data-aos="fade-up" data-aos-delay="100">{props.description}</p>
             </div>
             
         </SectionDiv>
